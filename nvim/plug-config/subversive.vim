@@ -1,0 +1,2 @@
+nmap s <plug>(SubversiveSubstitute)
+

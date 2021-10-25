@@ -1,0 +1,25 @@
+{
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/snippets"
+  ],
+  "explorer.position": "floating",
+  "explorer.file.reveal.auto": false,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "o": ["expanded?", "collapse", "expand"],
+    "h": "open:split",
+    "v": "open:vsplit"
+  },
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact", "css", "scss", "markdown", "html"],
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 90,
+  "prettier.trailingComma": "none",
+  "git.addGBlameToVirtualText": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  }
+}

@@ -1,0 +1,22 @@
+snippet iife "Immediately-Invoked Function Expression (iife)"
+(function`!p snip.rv = space_before_function_paren(snip)`(${1:window}) {
+	${VISUAL}$0
+}($1))`!p snip.rv = semi(snip)`
+endsnippet
+
+snippet switch
+switch`!p snip.rv = keyword_spacing(snip)`(${VISUAL}${1:expression}) {
+	case '${VISUAL}${2:case}':
+		${3}
+		break`!p snip.rv = semi(snip)`
+	${0}
+	default:
+		break`!p snip.rv = semi(snip)`
+}
+endsnippet
+
+snippet case "case 'xyz': ... break"
+case`!p snip.rv = keyword_spacing(snip)`'${VISUAL}${1:case}':
+	${VISUAL}$0
+	break`!p snip.rv = semi(snip)`
+endsnippet
