@@ -42,7 +42,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'AndrewRadev/tagalong.vim'
   Plug 'psliwka/vim-smoothie'
-  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 call plug#end()
 
 " Automatically install missing plugins on startup
