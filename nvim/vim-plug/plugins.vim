@@ -7,13 +7,15 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+  Plug 'nvim-lua/plenary.nvim'
+  Plug 'nvim-telescope/telescope.nvim'
+
   Plug 'metakirby5/codi.vim'
   Plug 'brooth/far.vim'
   Plug 'machakann/vim-highlightedyank'
   Plug 'nelstrom/vim-visual-star-search'
   Plug 'unblevable/quick-scope'
-  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-  Plug 'junegunn/fzf.vim'
   Plug 'MattesGroeger/vim-bookmarks'
   Plug 'evanleck/vim-svelte', {'branch': 'main'}
   Plug 'yuezk/vim-js'
