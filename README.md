@@ -7,7 +7,7 @@ My working environment
 It's totally up to you. I just cloned it inside my home directory folder using following command.
 
 ```zsh
-git clone https://github.com/kafelix496/working-env.git ~/
+git clone https://github.com/kafelix496/working-env.git ~/working-env
 ```
 
 :pushpin:
