@@ -12,15 +12,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'machakann/vim-highlightedyank'
   Plug 'nelstrom/vim-visual-star-search'
   Plug 'unblevable/quick-scope'
-  Plug 'mg979/vim-visual-multi', {'branch': 'master'}
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
-  Plug 'mattn/emmet-vim'
   Plug 'MattesGroeger/vim-bookmarks'
-  Plug 'heavenshell/vim-jsdoc', {
-    \ 'for': ['javascript', 'javascript.jsx','typescript'],
-    \ 'do': 'make install'
-  \}
   Plug 'evanleck/vim-svelte', {'branch': 'main'}
   Plug 'yuezk/vim-js'
   Plug 'maxmellon/vim-jsx-pretty'
@@ -42,6 +36,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'AndrewRadev/tagalong.vim'
   Plug 'psliwka/vim-smoothie'
+
   Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 call plug#end()
 
