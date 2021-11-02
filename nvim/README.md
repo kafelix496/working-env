@@ -47,3 +47,9 @@ There is some things you need to install
    ```zsh
    brew install fzf
    ```
+
+5. Bat ( _If you are using MacOS Homebrew, Please use the following command_ )
+
+   ```zsh
+   brew install bat
+   ```

@@ -1,8 +1,10 @@
 " set leader key
 let g:mapleader = ","
 
-set regexpengine=1 " Use old regexp engine
 syntax enable " Enables syntax highlighing
+colorscheme monokai
+
+set regexpengine=1 " Use old regexp engine
 set belloff=all
 set number relativenumber " Show number & relative number
 set hidden " Required to keep multiple buffers open multiple buffers
@@ -17,7 +19,6 @@ set mouse=a " Enable your mouse
 set splitbelow " Horizontal splits will automatically be below
 set splitright " Vertical splits will automatically be to the right
 set t_Co=256 " Support 256 colors
-colorscheme monokai
 set conceallevel=0 " So that I can see `` in markdown files
 set tabstop=2 " Insert 2 spaces for a tab
 set shiftwidth=2 " Change the number of space characters inserted for indentation
@@ -45,6 +46,7 @@ set hlsearch " Highlight search result
 set incsearch " Makes search act like search modern browsers
 set ai " Auto Indent
 set si " Smart Indent
+
 "set autochdir " Your working directory will always be the same as your working directory
 
 hi Normal guibg=NONE ctermbg=NONE
