@@ -42,9 +42,11 @@ nnoremap <C-l> <C-w>l
 
 nmap <Leader>ap <Plug>(coc-codeaction)
 
+nnoremap <Leader>cp :let @+ = expand("%")<CR>
+
 " Easy Save and Quit
 nnoremap <leader>w :w!<CR>
-nnoremap <leader>q :q!<CR>
+nnoremap <leader>q <C-w>o:q!<CR>
 
 " Easy tab move
 nnoremap <leader>1 1gt
