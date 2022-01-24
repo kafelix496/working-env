@@ -1,6 +1,6 @@
 " vimwiki
-nmap <Leader>tl <Plug>VimwikiToggleListItem
-vmap <Leader>tl <Plug>VimwikiToggleListItem
+nmap <Space> <Plug>VimwikiToggleListItem
+vmap <Space> <Plug>VimwikiToggleListItem
 nnoremap <Leader>mt :VimwikiTable<Space>
 
 " Better nav for omnicomplete

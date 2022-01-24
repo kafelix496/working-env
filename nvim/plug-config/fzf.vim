@@ -6,10 +6,7 @@ let g:fzf_action = {
 
 map <C-p> :Files<CR>
 map <C-f> :BLines<CR>
-map <Leader>b :Buffers<CR>
 nnoremap <Leader>rg :Rg<Space>
-" nnoremap <Leader>t :Tags<CR>
-" nnoremap <Leader>m :Marks<CR>
 
 let g:fzf_tags_command = 'ctags -R'
 let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.9, 'yoffset': 0.5, 'xoffset': 0.5, 'highlight': 'Todo', 'border': 'sharp' } }
