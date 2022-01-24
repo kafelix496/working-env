@@ -27,6 +27,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'crusoexia/vim-monokai'
   Plug 'tpope/vim-surround'
   Plug 'ryanoasis/vim-devicons'
+  Plug 'vimwiki/vimwiki'
   " Plug 'vim-airline/vim-airline'
   Plug 'kafelix496/vim-airline'
   Plug 'tpope/vim-commentary'

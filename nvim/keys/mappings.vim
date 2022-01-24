@@ -1,3 +1,8 @@
+" vimwiki
+nmap <Leader>tl <Plug>VimwikiToggleListItem
+vmap <Leader>tl <Plug>VimwikiToggleListItem
+nnoremap <Leader>mt :VimwikiTable<Space>
+
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")

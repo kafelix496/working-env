@@ -4,6 +4,7 @@ let g:mapleader = ","
 syntax enable " Enables syntax highlighing
 colorscheme monokai
 
+set nocompatible
 set regexpengine=1 " Use old regexp engine
 set belloff=all
 set number relativenumber " Show number & relative number
