@@ -17,7 +17,6 @@ if !exists('g:vscode')
   " "source $HOME/.config/nvim/plug-config/telescope.vim
   source $HOME/.config/nvim/plug-config/coc.vim
   source $HOME/.config/nvim/plug-config/far.vim
-  source $HOME/.config/nvim/plug-config/jsdoc.vim
   source $HOME/.config/nvim/plug-config/codi.vim
 endif
 
