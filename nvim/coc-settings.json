@@ -1,8 +1,5 @@
 {
-  "snippets.ultisnips.directories": [
-    "UltiSnips",
-    "~/.config/nvim/snippets"
-  ],
+  "snippets.userSnippetsDirectory": "~/working-env/nvim/UltiSnips",
   "explorer.position": "floating",
   "explorer.file.reveal.auto": false,
   "explorer.icon.enableNerdfont": true,

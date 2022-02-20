@@ -28,8 +28,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-surround'
   Plug 'ryanoasis/vim-devicons'
   Plug 'vimwiki/vimwiki'
+
   " Plug 'vim-airline/vim-airline'
   Plug 'kafelix496/vim-airline'
+
   Plug 'tpope/vim-commentary'
   Plug 'mbbill/undotree'
   Plug 'tpope/vim-fugitive'
@@ -39,7 +41,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'voldikss/vim-floaterm'
   Plug 'jez/vim-superman'
   Plug 'jiangmiao/auto-pairs'
-  Plug 'honza/vim-snippets'
   Plug 'AndrewRadev/tagalong.vim'
   Plug 'psliwka/vim-smoothie'
 
