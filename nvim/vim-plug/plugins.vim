@@ -40,7 +40,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jez/vim-superman'
   Plug 'jiangmiao/auto-pairs'
   Plug 'honza/vim-snippets'
-  Plug 'mattn/emmet-vim'
   Plug 'AndrewRadev/tagalong.vim'
   Plug 'psliwka/vim-smoothie'
 
