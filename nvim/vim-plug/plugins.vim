@@ -16,6 +16,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'vim-test/vim-test'
 
+  Plug 'github/copilot.vim'
   Plug 'metakirby5/codi.vim'
   Plug 'brooth/far.vim'
   Plug 'machakann/vim-highlightedyank'
