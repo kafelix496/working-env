@@ -1,4 +1,4 @@
-nmap `m <Plug>BookmarkToggle
-nmap `j <Plug>BookmarkNext
-nmap `k <Plug>BookmarkPrev
+nmap <leader>bm <Plug>BookmarkToggle
+nmap <leader>bj <Plug>BookmarkNext
+nmap <leader>bk <Plug>BookmarkPrev
 
