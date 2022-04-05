@@ -48,7 +48,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'AndrewRadev/tagalong.vim'
   Plug 'psliwka/vim-smoothie'
 
-  Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
 
 " Automatically install missing plugins on startup

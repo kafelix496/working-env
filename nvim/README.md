@@ -2,6 +2,10 @@
 
 :loud_sound: I'm a **front-end web developer** so most of plugins are configured based on **front-end web development**.
 
+### Prerequisites
+
+Install dependencies first and then install neovim plugins
+
 ### How to install 'neovim'
 
 Please check the official website https://github.com/neovim/neovim
@@ -21,41 +25,49 @@ you have to change `~/working-env` to `path-you-cloned`
 
 There is some things you need to install
 
-1. Node.js ( _If you are using MacOS Homebrew, Please use the following command_ )
+:pushpin: **I'm assuming you are using MacOS and homebrew in here...**
 
-   ```zsh
-   brew install nodejs
-   ```
+1. Node.js
 
-2. Nerd Fonts ( _If you are using MacOS Homebrew, Please use the following command_ )
+```zsh
+brew install nodejs
+```
 
-   :pushpin:**After you install it, Please change your terminal font to 'Hack Nerd Font Mono'**
+2. Yarn
 
-   ```zsh
-   brew tap homebrew/cask-fonts
-   brew install --cask font-hack-nerd-font
-   ```
+```zsh
+npm install --global yarn
+```
 
-3. ripgrep ( _If you are using MacOS Homebrew, Please use the following command_ )
+3. Nerd Fonts
 
-   ```zsh
-   brew install ripgrep
-   ```
+:pushpin: **After you install it, Please change your terminal font to 'Hack Nerd Font Mono'**
 
-4. Fuzzy Finder ( _If you are using MacOS Homebrew, Please use the following command_ )
+```zsh
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
 
-   ```zsh
-   brew install fzf
-   ```
+4. ripgrep
 
-5. Bat ( _If you are using MacOS Homebrew, Please use the following command_ )
+```zsh
+brew install ripgrep
+```
 
-   ```zsh
-   brew install bat
-   ```
+5. Fuzzy Finder
 
-6. Sed ( _If you are using MacOS Homebrew, Please use the following command_ )
+```zsh
+brew install fzf
+```
 
-   ```zsh
-   brew install gnu-sed
-   ```
+6. Bat
+
+```zsh
+brew install bat
+```
+
+7. Sed
+
+```zsh
+brew install gnu-sed
+```
