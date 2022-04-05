@@ -53,3 +53,9 @@ There is some things you need to install
    ```zsh
    brew install bat
    ```
+
+6. Sed ( _If you are using MacOS Homebrew, Please use the following command_ )
+
+   ```zsh
+   brew install gnu-sed
+   ```
