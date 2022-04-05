@@ -15,9 +15,9 @@ if !exists('g:vscode')
   source $HOME/.config/nvim/plug-config/airline.vim
   source $HOME/.config/nvim/plug-config/fzf.vim
   source $HOME/.config/nvim/plug-config/coc.vim
-  source $HOME/.config/nvim/plug-config/far.vim
   source $HOME/.config/nvim/plug-config/codi.vim
   source $HOME/.config/nvim/plug-config/test.vim
+  source $HOME/.config/nvim/plug-config/spectre.vim
 endif
 
 source $HOME/.config/nvim/plug-config/highlightedyank.vim
