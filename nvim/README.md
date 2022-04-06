@@ -21,9 +21,9 @@ ln -s ~/working-env/nvim ~/.config/
 :pushpin: If you happen to clone the [working-env](https://github.com/kafelix496/working-env/tree/master/nvim) repository not in home directory,
 you have to change `~/working-env` to `path-you-cloned`
 
-### Dependencies
+:pushpin: If you are using `github copilot`, you should start neovim and invoke `:Copilot setup`
 
-There is some things you need to install
+### Dependencies
 
 :pushpin: **I'm assuming you are using MacOS and homebrew in here...**
 
