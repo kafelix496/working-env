@@ -17,11 +17,6 @@ nnoremap <M-l> :vertical resize +2<CR>
 nnoremap <C-d> 30j
 nnoremap <C-u> 30k
 
-" TAB in general mode will move to text buffer
-" nnoremap <TAB> :bnext<CR>
-" SHIFT-TAB will go back
-" nnoremap <S-TAB> :bprevious<CR>
-
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -47,6 +42,10 @@ nnoremap <C-l> <C-w>l
 
 nmap <Leader>ap <Plug>(coc-codeaction)
 
+" Organize import
+nmap <Leader>si :call CocAction('runCommand', 'editor.action.organizeImport')<CR>
+
+" Copy current file path
 nnoremap <Leader>cp :let @+ = expand("%")<CR>
 
 " Easy Save and Quit
