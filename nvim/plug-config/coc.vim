@@ -10,6 +10,7 @@ let g:coc_global_extensions = [
   \ 'coc-git',
   \ 'coc-emmet',
   \ 'coc-snippets',
+  \ 'coc-pyright',
   \ ]
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
