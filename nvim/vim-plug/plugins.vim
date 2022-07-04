@@ -39,7 +39,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-commentary'
   Plug 'mbbill/undotree'
   Plug 'tpope/vim-fugitive'
-  Plug 'yggdroot/indentline'
   Plug 'svermeulen/vim-subversive'
   Plug 'https://github.com/vim-scripts/ReplaceWithRegister.git'
   Plug 'voldikss/vim-floaterm'
