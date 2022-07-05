@@ -59,6 +59,8 @@ filetype plugin indent on
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o " Disable automatic comment insertion
 
+autocmd FileType markdown let b:coc_suggest_disable = 1 " Disable coc auto suggestion for markdown
+
 au! BufWritePost $MYVIMRC source % " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 nmap gb <C-^>
