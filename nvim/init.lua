@@ -19,6 +19,7 @@ if !exists('g:vscode')
   source $HOME/.config/nvim/plug-config/test.vim
   source $HOME/.config/nvim/plug-config/spectre.vim
   source $HOME/.config/nvim/plug-config/copilot.vim
+  source $HOME/.config/nvim/plug-config/wiki.vim
   source $HOME/.config/nvim/plug-config/markdown-preview.vim
 endif
 
