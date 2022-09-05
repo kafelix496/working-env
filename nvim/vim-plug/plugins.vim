@@ -18,7 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nvim-lua/plenary.nvim'
   Plug 'windwp/nvim-spectre'
 
-  Plug 'github/copilot.vim'
+  " Plug 'github/copilot.vim'
   Plug 'metakirby5/codi.vim'
   Plug 'machakann/vim-highlightedyank'
   Plug 'nelstrom/vim-visual-star-search'
