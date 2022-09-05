@@ -17,9 +17,6 @@ nnoremap <M-l> :vertical resize +2<CR>
 nnoremap <C-d> 30j
 nnoremap <C-u> 30k
 
-" <TAB>: completion.
-inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
-
 " console log
 nnoremap <Leader>cl :silent put=['console.log(\"<C-r><C-w>\", <C-r><C-w>);']<CR>-2==+
 xnoremap <Leader>cl y:<C-u>silent put=['console.log(\"<C-r>"\", <C-r>");']<CR>-2==+
