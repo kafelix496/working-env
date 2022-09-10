@@ -24,7 +24,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'nelstrom/vim-visual-star-search'
   Plug 'unblevable/quick-scope'
   Plug 'MattesGroeger/vim-bookmarks'
-  Plug 'evanleck/vim-svelte', {'branch': 'main'}
   Plug 'yuezk/vim-js'
   Plug 'maxmellon/vim-jsx-pretty'
   Plug 'leafgarland/typescript-vim'
@@ -44,8 +43,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'voldikss/vim-floaterm'
   Plug 'jez/vim-superman'
   Plug 'jiangmiao/auto-pairs'
-  Plug 'AndrewRadev/tagalong.vim'
-  Plug 'psliwka/vim-smoothie'
 
   Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 call plug#end()
