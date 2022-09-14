@@ -54,6 +54,14 @@ nvim_tree.setup {
     },
   },
   view = {
+    adaptive_size = true,
+    float = {
+      enable = true,
+      open_win_config = {
+        relative = "editor",
+        border = "rounded",
+      },
+    },
     mappings = {
       list = {
         { key = { "l", "<CR>", "o" }, cb = tree_cb "edit" },
