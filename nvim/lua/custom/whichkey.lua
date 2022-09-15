@@ -69,7 +69,7 @@ local setup = {
   },
 }
 
-local opts = {
+local normal_mode_opts = {
   mode = "n", -- NORMAL mode
   prefix = "<leader>",
   buffer = nil, -- Global mappings. Specify a buffer number for buffer local mappings
@@ -78,7 +78,7 @@ local opts = {
   nowait = true, -- use `nowait` when creating keymaps
 }
 
-local mappings = {
+local normal_mode_mappings = {
   ["1"] = { "1gt", "Tab 1" },
   ["2"] = { "2gt", "Tab 2" },
   ["3"] = { "3gt", "Tab 3" },
@@ -125,6 +125,11 @@ local mappings = {
     I = { "<cmd>LspInstallInfo<CR>", "Installer Info" },
   },
 
+  s = {
+    name = "Search",
+    s = { "<cmd>lua require('spectre').open()<CR>", "Search" },
+  },
+
   t = {
     name = "Test",
     o = { "<cmd>TestNearest<CR>", "Nearest" },
@@ -139,5 +144,22 @@ local mappings = {
   },
 }
 
+local visual_mode_opts = {
+  mode = "v", -- VISUAL mode
+  prefix = "<leader>",
+  buffer = nil, -- Global mappings. Specify a buffer number for buffer local mappings
+  silent = true, -- use `silent` when creating keymaps
+  noremap = true, -- use `noremap` when creating keymaps
+  nowait = true, -- use `nowait` when creating keymaps
+}
+
+local visual_mode_mappings = {
+  s = {
+    name = "Search",
+    s = { "<cmd>lua require('spectre').open_visual({select_word=true})<CR>", "Search with select word" },
+  },
+}
+
 which_key.setup(setup)
-which_key.register(mappings, opts)
+which_key.register(normal_mode_mappings, normal_mode_opts)
+which_key.register(visual_mode_mappings, visual_mode_opts)

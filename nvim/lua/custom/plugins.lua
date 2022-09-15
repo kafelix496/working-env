@@ -42,7 +42,6 @@ packer.init({
 return packer.startup(function(use)
 
 	use("wbthomason/packer.nvim")
-	use("nvim-lua/plenary.nvim")
 	use("windwp/nvim-autopairs")
 	use("numToStr/Comment.nvim")
   use("JoosepAlviste/nvim-ts-context-commentstring")
@@ -57,6 +56,10 @@ return packer.startup(function(use)
     "iamcco/markdown-preview.nvim",
     run = "cd app && npm install",
   })
+
+  -- Search and replace
+	use("nvim-lua/plenary.nvim")
+	use("windwp/nvim-spectre")
 
   -- Vim extra combinations
   use("tpope/vim-surround")
