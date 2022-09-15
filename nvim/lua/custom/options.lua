@@ -32,9 +32,15 @@ local options = {
   wrap = false,                            -- display lines as one long line
 }
 
+-- make background transparent
 vim.cmd [[
-  hi Normal guibg=NONE ctermbg=NONE
+  highlight Normal guibg=NONE ctermbg=NONE
+  highlight NormalNC guibg=NONE ctermbg=NONE
+  highlight NvimTreeNormal guibg=NONE ctermbg=NONE
+  highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
 ]]
+
+vim.api.nvim_command("hi! NvimTreeNormalNC guibg=NONE guifg=NONE")
 
 vim.opt.shortmess:append "c"
 
