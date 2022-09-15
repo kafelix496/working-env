@@ -4,26 +4,9 @@ vim.cmd [[
     autocmd BufWritePre * Prettier
   augroup end
 
-  augroup _general_settings
-    autocmd!
-    autocmd BufWinEnter * :set formatoptions-=cro
-    autocmd FileType qf set nobuflisted
-  augroup end
-
-  augroup _git
-    autocmd!
-    autocmd FileType gitcommit setlocal wrap
-    autocmd FileType gitcommit setlocal spell
-  augroup end
-
   augroup _markdown
     autocmd!
-    autocmd FileType markdown setlocal wrap
-    autocmd FileType markdown setlocal spell
-  augroup end
-
-  augroup _auto_resize
-    autocmd!
-    autocmd VimResized * tabdo wincmd = 
+    autocmd FileType markdown nmap <buffer> <Space> :VimwikiToggleListItem<CR>
+    autocmd FileType markdown vmap <buffer> <Space> :VimwikiToggleListItem<CR>
   augroup end
 ]]
