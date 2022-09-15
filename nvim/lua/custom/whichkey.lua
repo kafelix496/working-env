@@ -133,7 +133,7 @@ local normal_mode_mappings = {
   t = {
     name = "Test",
     o = { "<cmd>TestNearest<CR>", "Nearest" },
-    w = { "<cmd>TestNearest --watch<CR>", "Nearest watch" },
+    w = { "<cmd>!tmux split-window -h<CR><cmd>!tmux send-keys 'yarn test:watch <C-r>%' C-m;<CR><cmd>!tmux select-pane -t 0<CR>", "Nearest watch" },
   },
 
   T = {
