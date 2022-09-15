@@ -93,8 +93,11 @@ return packer.startup(function(use)
   use("mfussenegger/nvim-lint") -- lint
   use("ray-x/lsp_signature.nvim")
 
-	-- Telescope
-	use("nvim-telescope/telescope.nvim")
+	-- fzf plugins
+	--[[ use("nvim-telescope/telescope.nvim") ]]
+	use("junegunn/fzf")
+	use("junegunn/fzf.vim")
+
 
 	-- Treesitter
 	use({

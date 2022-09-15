@@ -93,10 +93,10 @@ local mappings = {
   ["q"] = { "<C-w>o:q!<CR>", "Close Buffer" },
   ["Q"] = { "<cmd>q!<CR>", "Quit" },
   ["f"] = {
-    "<cmd>lua require('telescope.builtin').find_files()<CR>",
+    "<cmd>Files<CR>",
     "Find files",
   },
-  ["F"] = { "<cmd>lua require('telescope.builtin').live_grep()<CR>", "Find Text" },
+  ["F"] = { "<cmd>Rg<CR>", "Find Text" },
   ["<CR>"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
 
   g = {
@@ -113,9 +113,6 @@ local mappings = {
       "<cmd>lua require 'gitsigns'.undo_stage_hunk()<CR>",
       "Undo Stage Hunk",
     },
-    o = { "<cmd>Telescope git_status<CR>", "Open changed file" },
-    b = { "<cmd>Telescope git_branches<CR>", "Checkout branch" },
-    c = { "<cmd>Telescope git_commits<CR>", "Checkout commit" },
     d = {
       "<cmd>Gitsigns diffthis HEAD<CR>",
       "Diff",
@@ -126,18 +123,6 @@ local mappings = {
     name = "LSP",
     a = { "<cmd>lua vim.lsp.buf.code_action()<CR>", "Code Action" },
     I = { "<cmd>LspInstallInfo<CR>", "Installer Info" },
-  },
-
-  s = {
-    name = "Search",
-    b = { "<cmd>Telescope git_branches<CR>", "Checkout branch" },
-    c = { "<cmd>Telescope colorscheme<CR>", "Colorscheme" },
-    h = { "<cmd>Telescope help_tags<CR>", "Find Help" },
-    M = { "<cmd>Telescope man_pages<CR>", "Man Pages" },
-    r = { "<cmd>Telescope oldfiles<CR>", "Open Recent File" },
-    R = { "<cmd>Telescope registers<CR>", "Registers" },
-    k = { "<cmd>Telescope keymaps<CR>", "Keymaps" },
-    C = { "<cmd>Telescope commands<CR>", "Commands" },
   },
 
   t = {
