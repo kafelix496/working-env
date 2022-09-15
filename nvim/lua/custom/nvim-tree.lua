@@ -44,14 +44,7 @@ nvim_tree.setup {
     },
   },
   diagnostics = {
-    enable = true,
-    show_on_dirs = true,
-    icons = {
-      hint = "",
-      info = "",
-      warning = "",
-      error = "",
-    },
+    enable = false,
   },
   view = {
     adaptive_size = true,
@@ -64,9 +57,9 @@ nvim_tree.setup {
     },
     mappings = {
       list = {
+        { key = "<ESC>", cb = tree_cb "close" },
         { key = { "l", "<CR>", "o" }, cb = tree_cb "edit" },
         { key = "h", cb = tree_cb "close_node" },
-        { key = "v", cb = tree_cb "vsplit" },
         { key = "t", cb = tree_cb "tabnew" },
       },
     },
