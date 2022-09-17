@@ -96,7 +96,6 @@ local normal_mode_mappings = {
     "<cmd>Files<CR>",
     "Find files",
   },
-  ["F"] = { "<cmd>Rg<CR>", "Find Text" },
   ["<CR>"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
 
   g = {
