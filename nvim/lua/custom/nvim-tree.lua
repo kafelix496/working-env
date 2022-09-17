@@ -48,13 +48,7 @@ nvim_tree.setup {
   },
   view = {
     adaptive_size = true,
-    float = {
-      enable = true,
-      open_win_config = {
-        relative = "editor",
-        border = "rounded",
-      },
-    },
+    height = '100%',
     mappings = {
       list = {
         { key = "<ESC>", cb = tree_cb "close" },
