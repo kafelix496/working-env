@@ -38,6 +38,8 @@ vim.cmd [[
   highlight NormalNC guibg=NONE ctermbg=NONE
   highlight NvimTreeNormal guibg=NONE ctermbg=NONE
   highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
+  highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
+  highlight GitSignsCurrentLineBlame guifg=#ffffff
 ]]
 
 vim.api.nvim_command("hi! NvimTreeNormalNC guibg=NONE guifg=NONE")
