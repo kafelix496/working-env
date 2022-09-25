@@ -81,11 +81,5 @@ nvim_tree.setup {
         return layouts.center
       end,
     },
-    width = function()
-      return math.floor(vim.opt.columns:get() * 0.9)
-    end,
-    height = function()
-      return math.floor((vim.opt.lines:get() - vim.opt.cmdheight:get()) * 0.9)
-    end,
   },
 }
