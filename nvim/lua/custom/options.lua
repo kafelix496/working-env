@@ -40,9 +40,8 @@ vim.cmd [[
   highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
   highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
   highlight GitSignsCurrentLineBlame guifg=#ffffff
+  highlight PmenuSel guibg=gray ctermbg=gray
 ]]
-
-vim.api.nvim_command("hi! NvimTreeNormalNC guibg=NONE guifg=NONE")
 
 vim.opt.shortmess:append "c"
 
