@@ -211,7 +211,7 @@ return packer.startup(function(use)
 	use({
 		"nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
-    commit = "7ccb9a05",
+    commit = "7ddc2b54",
 	})
 
 	-- Git
