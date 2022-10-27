@@ -5,7 +5,7 @@
 - Using homebrew
 
   ```zsh
-  brew install --cask alacritty
+  brew install --cask --no-quarantine alacritty
   ```
 
 - Using others
