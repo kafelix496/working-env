@@ -1,8 +1,9 @@
-nnoremap <leader>ff <cmd>lua require('spectre').open()<CR>
-vnoremap <leader>ff <cmd>lua require('spectre').open_visual({select_word=true})<CR>
+local status_ok, spectre = pcall(require, "spectre")
+if not status_ok then
+  return
+end
 
-lua << EOF
-require('spectre').setup({
+spectre.setup({
   mapping={
     ['toggle_line'] = {
         map = "x",
@@ -16,4 +17,4 @@ require('spectre').setup({
     }
   }
 })
-EOF
+
