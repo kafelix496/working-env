@@ -206,13 +206,15 @@ return packer.startup(function(use)
     commit = "ecbf9cd",
   })
 
-
 	-- Treesitter
 	use({
 		"nvim-treesitter/nvim-treesitter",
     run = ":TSUpdate",
     commit = "7ddc2b54",
 	})
+
+	-- Copilot
+	use({ "github/copilot.vim" })
 
 	-- Git
 	use({
