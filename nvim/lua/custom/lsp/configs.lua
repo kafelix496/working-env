@@ -3,7 +3,7 @@ if not lsp_installer_status_ok then
 	return
 end
 
-local servers = { "tsserver", "cssls", "html", "jsonls", "pyright", "yamlls", "tailwindcss", "dockerls", "eslint", "angularls", "sumneko_lua" }
+local servers = { "tsserver", "cssls", "html", "jsonls", "pyright", "yamlls", "tailwindcss", "dockerls", "eslint", "angularls" }
 
 lsp_installer.setup({
 	ensure_installed = servers,
