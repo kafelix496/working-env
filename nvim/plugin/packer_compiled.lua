@@ -209,11 +209,6 @@ _G.packer_plugins = {
     path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
-  ["tokyonight.nvim"] = {
-    loaded = true,
-    path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
-  },
   ["vim-airline"] = {
     loaded = true,
     path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/vim-airline",

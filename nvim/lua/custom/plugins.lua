@@ -70,7 +70,6 @@ return packer.startup(function(use)
   use({ "ryanoasis/vim-devicons" })
 
 	-- Colorschemes
-	use({ "folke/tokyonight.nvim" })
 	use({ "lunarvim/darkplus.nvim" })
 
 	-- cmp plugins
