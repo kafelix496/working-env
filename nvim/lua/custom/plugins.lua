@@ -62,6 +62,10 @@ return packer.startup(function(use)
   use({ "https://github.com/vim-scripts/ReplaceWithRegister.git" })
   use({ "svermeulen/vim-subversive" })
 
+  -- Rest Client
+  -- Dependencies: nvim-lua/plenary.nvim
+  use({ "rest-nvim/rest.nvim" })
+
   -- Test (ex jest)
   use({ "vim-test/vim-test" })
 
