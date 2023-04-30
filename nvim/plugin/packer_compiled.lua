@@ -159,6 +159,11 @@ _G.packer_plugins = {
     path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -173,11 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/nvim-comment",
     url = "https://github.com/terrortylor/nvim-comment"
-  },
-  ["nvim-lint"] = {
-    loaded = true,
-    path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/nvim-lint",
-    url = "https://github.com/mfussenegger/nvim-lint"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -238,11 +238,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/vim-highlightedyank",
     url = "https://github.com/machakann/vim-highlightedyank"
-  },
-  ["vim-prettier"] = {
-    loaded = true,
-    path = "/Users/jiyeollee/.local/share/nvim/site/pack/packer/start/vim-prettier",
-    url = "https://github.com/prettier/vim-prettier"
   },
   ["vim-subversive"] = {
     loaded = true,

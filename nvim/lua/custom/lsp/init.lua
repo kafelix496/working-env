@@ -5,6 +5,5 @@ end
 
 require "custom.lsp.mason"
 require("custom.lsp.handlers").setup()
-require "custom.lsp.formatter"
-require "custom.lsp.lint"
 require "custom.lsp.lsp-signature"
+require "custom.lsp.null-ls"

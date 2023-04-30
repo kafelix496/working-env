@@ -92,8 +92,7 @@ return packer.startup(function(use)
 	use({ "neovim/nvim-lspconfig" })
   use({ "williamboman/mason.nvim" })
   use({ "williamboman/mason-lspconfig.nvim" })
-  use({ "prettier/vim-prettier", run = "yarn install --frozen-lockfile --production" })
-  use({ "mfussenegger/nvim-lint" })
+  use ({ "jose-elias-alvarez/null-ls.nvim"  }) -- for formatters and linters
   use({ "ray-x/lsp_signature.nvim" })
 
 	-- fzf plugins

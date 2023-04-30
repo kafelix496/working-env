@@ -1,7 +1,7 @@
 vim.cmd [[
-  augroup _lsp
-    autocmd!
-    autocmd BufWritePre * Prettier
+  augroup format_on_save
+    autocmd! 
+    autocmd BufWritePre * lua vim.lsp.buf.format({ async = false }) 
   augroup end
 
   augroup _markdown
