@@ -11,6 +11,17 @@ end
 local tree_cb = nvim_tree_config.nvim_tree_callback
 
 nvim_tree.setup {
+  on_attach = function(bufnr)
+    local api = require('nvim-tree.api')
+
+    local function opts(desc)
+      return { desc = 'nvim-tree: ' .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
+    end
+
+    api.config.mappings.default_on_attach(bufnr)
+
+    vim.keymap.set('n', 't', api.node.open.tab, opts('Open: New Tab'))
+  end,
   update_focused_file = {
     enable = true,
     update_cwd = true,
@@ -47,14 +58,6 @@ nvim_tree.setup {
     enable = false,
   },
   view = {
-    mappings = {
-      list = {
-        { key = "<ESC>", cb = tree_cb "close" },
-        { key = { "l", "<CR>", "o" }, cb = tree_cb "edit" },
-        { key = "h", cb = tree_cb "close_node" },
-        { key = "t", cb = tree_cb "tabnew" },
-      },
-    },
     float = {
       enable = true,
       open_win_config = function()

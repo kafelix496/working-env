@@ -3,7 +3,7 @@ if not status_ok then
   return
 end
 
-require "custom.lsp.configs"
+require "custom.lsp.mason"
 require("custom.lsp.handlers").setup()
 require "custom.lsp.formatter"
 require "custom.lsp.lint"
