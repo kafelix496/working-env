@@ -56,10 +56,6 @@ keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 -- Visual Block mode end --
 
 vim.cmd [[
-  " nmap <leader>bm <Plug>BookmarkToggle
-  " nmap <leader>bj <Plug>BookmarkNext
-  " nmap <leader>bk <Plug>BookmarkPrev
-
   " copy current file path to clipboard
   nnoremap <Leader>cp :let @+ = expand("%")<CR>
 

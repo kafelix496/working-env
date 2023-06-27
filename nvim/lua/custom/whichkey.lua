@@ -79,6 +79,11 @@ local normal_mode_opts = {
 }
 
 local normal_mode_mappings = {
+  [","] = { "<cmd>BookmarkToggle<CR>", "Bookmark Toggle" },
+  ["a"] = { "<cmd>BookmarkShowAll<CR>", "Bookmark Show All" },
+  ["j"] = { "<cmd>BookmarkNext<CR>", "Bookmark Next" },
+  ["k"] = { "<cmd>BookmarkPrev<CR>", "Bookmark Prev" },
+  ["x"] = { "<cmd>BookmarkClearAll<CR>", "Bookmark Clear All" },
   ["1"] = { "1gt", "Tab 1" },
   ["2"] = { "2gt", "Tab 2" },
   ["3"] = { "3gt", "Tab 3" },

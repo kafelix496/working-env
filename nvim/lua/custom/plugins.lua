@@ -102,6 +102,9 @@ return packer.startup(function(use)
 	-- Treesitter
 	use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
 
+	-- Bookmark
+	use({ "MattesGroeger/vim-bookmarks" })
+
 	-- Copilot
 	use({ "github/copilot.vim" })
 

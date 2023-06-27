@@ -224,6 +224,11 @@ _G.packer_plugins = {
     path = "/Users/jiyeol-lee/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/kafelix496/vim-airline"
   },
+  ["vim-bookmarks"] = {
+    loaded = true,
+    path = "/Users/jiyeol-lee/.local/share/nvim/site/pack/packer/start/vim-bookmarks",
+    url = "https://github.com/MattesGroeger/vim-bookmarks"
+  },
   ["vim-devicons"] = {
     loaded = true,
     path = "/Users/jiyeol-lee/.local/share/nvim/site/pack/packer/start/vim-devicons",
