@@ -64,7 +64,7 @@ vim.cmd [[
   nnoremap <Leader>cp :let @+ = expand("%")<CR>
 
   " ripgrep
-  nnoremap <Leader>rg :Rg
+  nnoremap <Leader>rg :Rg 
   xnoremap <Leader>rg y:Rg <C-R>"
 
   " console log
