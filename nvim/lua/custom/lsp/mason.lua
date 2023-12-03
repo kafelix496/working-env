@@ -1,5 +1,5 @@
 -- remove "html" because it's conflicted with "angularls"
-local servers = { "tsserver", "cssls", "jsonls", "pyright", "tailwindcss", "dockerls", "eslint", "angularls", "gopls" }
+local servers = { "tsserver", "cssls", "jsonls", "pyright", "tailwindcss", "dockerls", "eslint", "angularls", "gopls", "prismals" }
 
 local settings = {
   ui = {

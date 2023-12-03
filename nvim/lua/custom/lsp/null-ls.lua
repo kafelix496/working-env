@@ -17,6 +17,7 @@ null_ls.setup {
     formatting.golines,
     formatting.gofumpt,
     formatting.goimports,
+    formatting.prismaFmt,
     diagnostics.shellcheck,
   },
 }
