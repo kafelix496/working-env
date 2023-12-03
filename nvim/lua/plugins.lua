@@ -72,4 +72,8 @@ return {
 
   -- Git
   { "lewis6991/gitsigns.nvim" },
+
+  -- Prisma vim parser
+  -- Tree sitter is not working for some reason
+  { "prisma/vim-prisma" }
 }

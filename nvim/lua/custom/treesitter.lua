@@ -22,7 +22,6 @@ configs.setup({
     "regex",
     "yaml",
     "http",
-    "prisma"
   },
   highlight = {
     -- disable because of an error. don't know why.
