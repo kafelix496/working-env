@@ -26,7 +26,13 @@ configs.setup({
   highlight = {
     -- disable because of an error. don't know why.
     -- false will disable the whole extension
-    enable = false,
+    enable = true,
+
+    -- NOTE: these are the names of the parsers and not the filetype. (for example if you want to
+    -- disable highlighting for the `tex` filetype, you need to include `latex` in this list as this is
+    -- the name of the parser)
+    -- list of language that will be disabled
+    disable = { "lua" },
   },
   autopairs = {
     enable = true,
