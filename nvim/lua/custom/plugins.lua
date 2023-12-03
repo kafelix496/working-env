@@ -64,7 +64,7 @@ return packer.startup(function(use)
 
   -- Rest Client
   -- Dependencies: nvim-lua/plenary.nvim
-  use({ "rest-nvim/rest.nvim" })
+  -- use({ "rest-nvim/rest.nvim" })
 
   -- Test (ex jest)
   use({ "vim-test/vim-test" })
