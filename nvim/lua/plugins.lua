@@ -1,8 +1,11 @@
 return {
   { "windwp/nvim-autopairs" },
   { "terrortylor/nvim-comment" },
-  { "kyazdani42/nvim-web-devicons" },
-  { "kyazdani42/nvim-tree.lua" },
+  {
+    "nvim-tree/nvim-web-devicons",
+    lazy = true
+  },
+  { "nvim-tree/nvim-tree.lua" },
   { "voldikss/vim-floaterm" },
   { "lewis6991/impatient.nvim" },
   { "folke/which-key.nvim" },
