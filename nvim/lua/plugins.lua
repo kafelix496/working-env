@@ -33,7 +33,26 @@ return {
   { "ryanoasis/vim-devicons" },
 
   -- Colorschemes
-  { "lunarvim/darkplus.nvim" },
+  {
+    "lunarvim/darkplus.nvim",
+    lazy = false,    -- make sure we load this during startup if it is your main colorscheme
+    priority = 1000, -- make sure to load this before all the other start plugins
+    config = function()
+      vim.cmd([[
+        " set the colorscheme and highlight here
+        colorscheme darkplus
+
+        " make background transparent
+        highlight Normal guibg=NONE ctermbg=NONE
+        highlight NormalNC guibg=NONE ctermbg=NONE
+        highlight NvimTreeNormal guibg=NONE ctermbg=NONE
+        highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
+        highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
+        highlight GitSignsCurrentLineBlame guifg=#ffffff
+        highlight PmenuSel guibg=gray ctermbg=gray
+      ]])
+    end,
+  },
 
   -- cmp plugins
   { "hrsh7th/nvim-cmp" },

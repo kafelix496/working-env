@@ -33,15 +33,6 @@ local options = {
 }
 
 vim.cmd [[
-  " make background transparent
-  highlight Normal guibg=NONE ctermbg=NONE
-  highlight NormalNC guibg=NONE ctermbg=NONE
-  highlight NvimTreeNormal guibg=NONE ctermbg=NONE
-  highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
-  highlight NvimTreeNormalNC guibg=NONE ctermbg=NONE
-  highlight GitSignsCurrentLineBlame guifg=#ffffff
-  highlight PmenuSel guibg=gray ctermbg=gray
-
   " disable auto insertion of comment
   autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 ]]

@@ -1,5 +1,4 @@
 require "custom.keymaps"
-require "custom.colorscheme"
 require "custom.cmp"
 require "custom.lsp"
 require "custom.treesitter"
