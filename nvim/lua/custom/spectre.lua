@@ -4,17 +4,16 @@ if not status_ok then
 end
 
 spectre.setup({
-  mapping={
+  mapping = {
     ['toggle_line'] = {
-        map = "x",
-        cmd = "<cmd>lua require('spectre').toggle_line()<CR>",
-        desc = "toggle current item"
+      map = "x",
+      cmd = "<cmd>lua require('spectre').toggle_line()<CR>",
+      desc = "toggle current item"
     },
     ['run_replace'] = {
-        map = "<leader>R",
-        cmd = "<cmd>lua require('spectre.actions').run_replace()<CR>",
-        desc = "replace all"
+      map = "<leader>R",
+      cmd = "<cmd>lua require('spectre.actions').run_replace()<CR>",
+      desc = "replace all"
     }
   }
 })
-

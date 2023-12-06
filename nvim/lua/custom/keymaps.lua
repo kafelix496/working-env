@@ -39,7 +39,7 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Normal mode end --
 
 -- Insert mode start --
--- Press jk fast to exit insert mode 
+-- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
 -- Insert mode end --
 
@@ -60,7 +60,7 @@ vim.cmd [[
   nnoremap <Leader>cp :let @+ = expand("%")<CR>
 
   " ripgrep
-  nnoremap <Leader>rg :Rg 
+  nnoremap <Leader>rg :Rg
   xnoremap <Leader>rg y:Rg <C-R>"
 
   " console log
