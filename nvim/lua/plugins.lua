@@ -34,13 +34,14 @@ return {
 
   -- Colorschemes
   {
-    "lunarvim/darkplus.nvim",
+    "ellisonleao/gruvbox.nvim",
     lazy = false,    -- make sure we load this during startup if it is your main colorscheme
     priority = 1000, -- make sure to load this before all the other start plugins
     config = function()
       vim.cmd([[
         " set the colorscheme and highlight here
-        colorscheme darkplus
+        set background=dark
+        colorscheme gruvbox
 
         " make background transparent
         highlight Normal guibg=NONE ctermbg=NONE
