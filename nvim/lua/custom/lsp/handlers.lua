@@ -50,12 +50,14 @@ local function lsp_keymaps(bufnr)
   vim.api.nvim_buf_set_keymap(bufnr, "n", "]d", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
 end
 
-M.on_attach = function(client, bufnr)
-  if client.name == "tsserver" then
+M.on_init = function(client)
+  if client.name == "tsserver" and client.server_capabilities then
     client.server_capabilities.documentFormattingProvider = false
     client.server_capabilities.semanticTokensProvider = nil
   end
+end
 
+M.on_attach = function(client, bufnr)
   vim.cmd [[
     augroup format_on_save
       autocmd!
