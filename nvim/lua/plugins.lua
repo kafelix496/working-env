@@ -32,6 +32,10 @@ return {
   { "kafelix496/vim-airline" },
   { "ryanoasis/vim-devicons" },
 
+  -- Typescript syntax support
+  { "leafgarland/typescript-vim" },
+  { "peitalin/vim-jsx-typescript" },
+
   -- Colorschemes
   {
     "ellisonleao/gruvbox.nvim",
