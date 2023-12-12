@@ -7,6 +7,7 @@ configs.setup({
   -- one of "all" or a list of languages
   ensure_installed = {
     "typescript",
+    "tsx",
     "javascript",
     "scss",
     "html",
