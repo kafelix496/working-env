@@ -72,9 +72,9 @@ return {
   -- use("rafamadriz/friendly-snippets") -- a bunch of snippets to use
 
   -- LSP
-  { "neovim/nvim-lspconfig" },
   { "williamboman/mason.nvim" },
   { "williamboman/mason-lspconfig.nvim" },
+  { "neovim/nvim-lspconfig" },
   { "nvimtools/none-ls.nvim" }, -- for formatters and linters
   { "ray-x/lsp_signature.nvim" },
 
