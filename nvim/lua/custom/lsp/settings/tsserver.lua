@@ -1,11 +1,9 @@
 local opts = {
-  settings = {
-    typescript = {
-      preferences = {
-        importModuleSpecifier = "non-relative",
-      },
+  init_options = {
+    preferences = {
+      importModuleSpecifierPreference = "non-relative",
     },
-  },
+  }
 }
 
 return opts

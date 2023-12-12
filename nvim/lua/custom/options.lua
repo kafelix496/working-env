@@ -32,6 +32,7 @@ local options = {
   wrap = false,                            -- display lines as one long line
 }
 
+vim.loader.enable()
 vim.cmd [[
   " disable auto insertion of comment
   autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

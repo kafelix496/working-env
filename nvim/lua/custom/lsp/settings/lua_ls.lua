@@ -2,7 +2,7 @@ local opts = {
   settings = {
     Lua = {
       diagnostics = {
-        globals = { 'vim' }
+        globals = { 'vim', 'spec' }
       }
     }
   }
