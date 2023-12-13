@@ -97,10 +97,6 @@ M.config = function()
     ["w"] = { "<cmd>w!<CR>", "Save" },
     ["q"] = { "<C-w>o:q!<CR>", "Close Buffer" },
     ["Q"] = { "<cmd>q!<CR>", "Quit" },
-    ["f"] = {
-      "<cmd>Files<CR>",
-      "Find files",
-    },
     ["<CR>"] = { "<cmd>nohlsearch<CR>", "No Highlight" },
 
     g = {
@@ -162,7 +158,7 @@ M.config = function()
     s = {
       name = "Search",
       s = { "<cmd>lua require('spectre').open_visual({select_word=true})<CR>", "Search with select word" },
-    },
+    }
   }
 
   local which_key = require("which-key")
