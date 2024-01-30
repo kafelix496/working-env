@@ -50,12 +50,6 @@ keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 -- Visual Block mode end --
 
--- Telescope map start --
-keymap('n', '<Leader>f', ':Telescope find_files<CR>', opts)
-keymap('n', '<Leader>rg', ':Telescope live_grep<CR>', opts)
-keymap('v', '<Leader>rg', 'y<ESC>:Telescope live_grep default_text=<c-r>0<CR>', opts)
--- Telescope map end --
-
 vim.cmd [[
   " copy current file path to clipboard
   nnoremap <Leader>cp :let @+ = expand("%")<CR>
